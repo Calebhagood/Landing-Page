@@ -85,7 +85,7 @@ a {
 .left-section1 button {
     color:#f9faf8;
     background-color: #3882f6;
-    border-radius: 8%;
+    border-radius: 5px;
     padding: 3px 20px;
     border: none;
 }
@@ -93,7 +93,7 @@ a {
 /*Section 2*/
 
 .section2 {
-    margin-bottom: 100px;
+    height: 450px;
 }
 
 .section2 h2 {
@@ -109,7 +109,7 @@ a {
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
-    border-radius: 8%;
+    border-radius: 10px;
 }
 
 .row {
@@ -135,4 +135,63 @@ a {
 
 .section3 {
     background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+blockquote .quote-author {
+    color: #1f2937;
+    margin-top: -25px;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/*Section 4*/
+
+.section4 {
+    color:#f9faf8;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    width: 800px;
+    height: 125px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-bluebox h4 {
+    margin-bottom: -15px;
+    padding: 0;
+}
+
+.right-bluebox button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    padding: 3px 20px;
 }

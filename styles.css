@@ -70,6 +70,9 @@ a {
     align-items: center
 }
 
+.right-section1{
+    display: flex;
+}
 .placeholder-img {
     background-color: rgb(109, 116, 125);
     width: 600px;
@@ -79,6 +82,7 @@ a {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    flex-shrink: 1;
     
 }
 
@@ -194,4 +198,14 @@ blockquote .quote-author {
     border: 1px solid #f9faf8;
     border-radius: 5px;
     padding: 3px 20px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
